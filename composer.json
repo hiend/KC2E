@@ -1,0 +1,21 @@
+{
+    "name": "hiend/KC2E",
+    "description": "Export keywords groups from KeyCollector project",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hiend",
+            "email": "adm@ruhub.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "1.8.0",
+        "symfony/console": "2.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "KC2E\\": "src"
+        }
+    }
+}
