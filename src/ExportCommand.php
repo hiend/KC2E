@@ -28,9 +28,9 @@ class ExportCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        //$kcdb = $input->getArgument('kcdb');
-        //$xls = $input->getArgument('xls');
+        (new Export($input->getArgument('kcdb')))
+            ->save($input->getArgument('xls'));
 
-        //$output->writeln("");
+        $output->writeln("Done!");
     }
 }
