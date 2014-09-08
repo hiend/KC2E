@@ -1,7 +1,10 @@
-# KC2E
+KC2E
+====
 
-Export keywords groups from KeyCollector project
+Export keywords groups from KeyCollector project to flat excel file.
 
-## Usage:
+##### Usage:
 
-    $ php app.php Project.kcdb Result.xls
+```bash
+$ php app.php Project.kcdb Result.xls
+```
